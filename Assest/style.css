@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body .scrolls {
+    transition-duration: 0.5s;
+}
+
+
+/* navbar  */
+
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    padding: 20px !important;
+}
+
+
+
+/* navbar end  */
+
+/* Hero-section  */
+
+#hero-section {
+    background: url(./images/banner/banner-bottom-shape.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: #6E63E7;
+}
+
+/* hero section buttons*/
+
+.inner-section h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.inner-section p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* css for google button */
+.button {
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    height: 65px;
+    border: 2px solid white;
+    width: 150px;
+}
+
+
+/* Swipr slider end*/
+.text h6 {
+    font-size: 14px;
+    color: white;
+}
+
+.text h4 {
+    font-size: 16px;
+    color: white;
+}
+
+.playstore-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.inner-button {
+    margin-left: 10px;
+}
+
+/* Button hover effects  */
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.394);
+}
+
+/* Css for Data cloud heading  */
+.inner-heading h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* hero section buttons end */
+
+/* Css for icons and dots */
+.dots {
+    margin-left: 30px;
+    position: relative;
+}
+
+.icon {
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+.card:hover .icon {
+    transition-duration: 2.5s;
+    margin-top: -50px;
+    cursor: pointer;
+
+}
+
+/* Css for icons and dots end here*/
+
+/* Css for inner box */
+.inner-box a:hover {
+    background-color: #6E63E7;
+    color: white !important;
+    transition-duration: 0.6s !important;
+}
+
+
+/* Powerful software, beautifully designed "css for buttons" */
+.btn-outline-dark {
+    border-color: #6E63E7 !important;
+}
+
+.btn-outline-dark:hover {
+    background-color: #6E63E7 !important;
+    transition-duration: 0.5s !important;
+    color: white !important;
+}
+
+/* Powerful software, beautifully designed "css for buttons end here" */
+
+
+/* Css for video section  */
+#video-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/video-section/bg.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.bi-camera-video::before {
+    font-size: 40px !important;
+}
+
+/* Css for video section end here*/
+
+/* Swipr slider  */
+.swiper {
+    width: 100%;
+    height: 80vh !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 3px 15px rgb(202, 202, 202);
+}
+
+:root {
+    --swiper-theme-color: #6E63E7;
+}
+
+/* Swipr slider end*/
+
+
+/* css for tabs button  */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white !important;
+    background-color: #6E63E7 !important;
+}
+
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #3e3d3d !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+/* css for tabs button ene here*/
+
+
+/* CSS for pricing cards*/
+
+
+
+.card-header {
+    border-bottom: none !important;
+}
+
+.card-header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-header h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #6E63E7;
+}
+
+.card-body .btn {
+    background-color: #6E63E7;
+    border: none;
+}
+
+.card-body ul li {
+    color: #677294;
+}
+
+/* Card hover effect */
+
+.pricing-card:hover .card-header h6 sup {
+    color: yellowgreen;
+    transition-duration: 0.6s;
+}
+
+.pricing-card:hover .card-header h6 span {
+    color: yellowgreen;
+    transition-duration: 0.6s;
+}
+
+.pricing-card:hover .card-body .btn {
+    background-color: yellowgreen;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.pricing-card:hover {
+    cursor: pointer;
+}
+
+/* CSS for pricing cards end here*/
+
+
+/* Css for Client Testimonial slider */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: flex !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    background-color: #6E63E7 !important;
+    transition: opacity .6s ease !important;
+}
+
+.carousel-inner {
+    margin-bottom: 15px !important;
+}
+
+/* Css for Client Testimonial slider */
+
+
+h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+/* Css for Accordiand end */
+
+
+
+/* Css for our latest news */
+
+/* h2 {
+    font-family: 'Roboto', sans-serif !important;
+} */
+
+.h2,
+h2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #3e3d3d !important;
+}
+
+/* Css for our latest news end */
+
+
+
+/* Css for footer section  */
+
+
+.shortcut h4 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.shortcut a h5 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    font-weight: 500 !important;
+    padding-top: 10px !important;
+    margin-top: 10px !important;
+}
+
+textarea.form-control {
+    height: 160px !important;
+}
+
+
+/* card hover effect */
+.card:hover .bi-clock {
+    color: #6E63E7;
+}
+
+.card:hover .card-heading h2 {
+    color: #6E63E7;
+}
+
+
+#card-border:after {
+    content: "";
+    position: absolute;
+    /* left: 25px; */
+    bottom: 0;
+    width: 100px;
+    height: 2px;
+    background-color: #273167;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#card-border:hover::after {
+    content: "";
+    position: absolute;
+    /* left: 25px; */
+    bottom: 0;
+    width: 100%;
+    /* height: 2px; */
+    background-color: #6E63E7;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .card-img img {
+    transform: translate3d(0, -2px, 0) scale3d(1.1, 1.1, 1.1);
+    transition-duration: 1.0s;
+}
+
+
+/* card hover effect end */
+
+/* Media Query for hero section  */
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+    #hero-section .row .col-lg-6 {
+        margin-top: 100px !important;
+    }
+}
+
+/* Media Query for hero section end*/
+
+/* Media Query for swiper slider  */
+@media only screen and (min-width: 2400px) {
+    .swiper {
+        height: 50vh !important;
+    }
+}
